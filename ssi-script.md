@@ -15,46 +15,50 @@ I'm a Research Data Scientist at The Alan Turing Institute.
 The Turing is the UK's national institute for Data Science and AI.
 My role involves applying new data science techniques to real-world problems and turning these tools into software for others to use.
 
+#### Slide 3
+
 I'm part of the Project Binder team that runs mybinder.org.
 We help people share thousands of Jupyter notebooks everyday.
 I share my experience of Binder through outreach and improve the Binder experience through development.
+
+#### Slide 4
 
 I am part of the core development team that launched _The Turing Way_.
 This is a handbook for reproducible data science and we collate together software tooling and best practices that make this "too easy not to do"!
 I contribute to the handbook and events so that I can share my knowledge and support other institutions in offering similar services.
 
-#### Slide 3
+#### Slide 5
 
 Through the SSI Fellowship, I want to share my Binder experience and grow the community to a thriving ecosystem of computation and research with notebooks.
 Specifically, I'd like to find new contributors with different skillsets so we can diversify Binder's capabilities, and new maintainers so we can increase Binder's bus factor and longevity as a project.
 I'd like to achieve this through running a workshop on contributing to Project Binder and attending events in different communities.
 
-#### Slide 4
+#### Slide 6
 
 So what's this Binder project I'm so excited about?
 
-#### Slide 5
+#### Slide 7
 
 mybinder.org is a free-to-use website that allows a code repository to be run in the cloud and easily shared via a single, clickable link.
 Three ingredients are needed for Binder, which are: code or notebooks in one of many supported languages, these should be published in a public repository and accompanied by documented software dependencies.
 This allows mybinder.org to serve the notebooks to anyone over the cloud.
 
-#### Slide 6
+#### Slide 8
 
 BinderHub is the computational infrastructure that powers mybinder.org and collects together different tools, including JupyterHub and Kubernetes.
 This is an open source project that is free for anyone to deploy in their own institutions.
 
-#### Slide 7
+#### Slide 9
 
 mybinder.org is a federated project, meaning that it is not hosted by a single team.
 The original Hub is hosted on Google Cloud in the US and a second Hub is hosted on OVH in Europe.
 
-#### Slide 8
+#### Slide 10
 
 As well as maintaining the Google cluster, I have also won a proposal to host a third Hub at the Turing on Azure.
 Stay tuned!
 
-#### Slide 9
+#### Slide 11
 
 How have I contributed to Binder so far?
 
@@ -63,7 +67,7 @@ I have also helped more people than ever deploy their own BinderHubs and develop
 
 At this year's RSE Conference, I was invited to speak about collaborating with the Binder team on the RSE Worldwide panel, as well as running my "Build A BinderHub" workshop.
 
-#### Slide 10
+#### Slide 12
 
 What challenges do the Binder community face?
 
@@ -77,7 +81,7 @@ They would have a voice in shaping the roadmap of the project and also help impr
 
 Not forgetting the opportunity to work with wonderful, supportive people!
 
-#### Slide 11
+#### Slide 13
 
 Through the SSI Fellowship I'd like to host a Binder "Do-athon".
 This would be a single day workshop split into two sessions.
@@ -88,7 +92,7 @@ I'd like to make use of my connections in _The Turing Way_ community to help fun
 
 I'm calling this event a "do-athon" as a I want to encourage non-code contributions.
 
-#### Slide 12
+#### Slide 14
 
 I have also identified three conferences I would like to attend as a Binder advocate.
 The Fellowship should cover the cost of at least a couple of them.
@@ -102,10 +106,10 @@ These are:
 My aims for these conferences would be to:
 
 - give talks advocating for Binder;
-- run hands-on workshops on using Binder with languages other than Python;
+- run hands-on workshops on using Binder with different languages;
 - or using sprint sessions to facilitate first contributions to Binder, in the spirit of _The Turing Way_ Book Dashes and Collaboration Cafes.
 
-#### Slide 13
+#### Slide 15
 
 Thank you for listening to my presentation, and I hope I've inspired you to try out mybinder.org.
 If you'd like to see more from me, please check out my GitHub and Twitter profiles.
