@@ -12,18 +12,22 @@ My name is Sarah Gibson and welcome to my 2020 SSI Fellowship application.
 Here's a little bit about me.
 
 I'm a Research Data Scientist at The Alan Turing Institute.
-The Turing is the UK's national institute for Data Science and AI and my role involves applying new data science techniques to real-world problems and turning these tools into software to allow practitioners to use these techniques themselves.
+The Turing is the UK's national institute for Data Science and AI.
+My role involves applying new data science techniques to real-world problems and turning these tools into software for others to use.
 
-I'm part of a team that helps people share thousands of Jupyter notebooks everyday using mybinder.org, maintained by Project Binder.
+I'm part of the Project Binder team that runs mybinder.org.
+We help people share thousands of Jupyter notebooks everyday.
 I share my experience of Binder through outreach and improve the Binder experience through development.
 
-I am part of the core development team that launched _The Turing Way_, which is a handbook for reproducible data science and collates together software tooling and best practices that make this "too easy not to do"!.
-I contribute there and share my knowledge so other institutions can offer similar services.
+I am part of the core development team that launched _The Turing Way_.
+This is a handbook for reproducible data science and we collate together software tooling and best practices that make this "too easy not to do"!
+I contribute to the handbook and events so that I can share my knowledge and support other institutions in offering similar services.
 
 #### Slide 3
 
 Through the SSI Fellowship, I want to share my Binder experience and grow the community to a thriving ecosystem of computation and research with notebooks.
-Specifically, I'd like to find new contributors with different skillsets so we can diversify Binder's capababilities, and new maintainers so we can increase Binder's bus factor and longevity as a project.
+Specifically, I'd like to find new contributors with different skillsets so we can diversify Binder's capabilities, and new maintainers so we can increase Binder's bus factor and longevity as a project.
+I'd like to achieve this through running a workshop on contributing to Project Binder and attending events in different communities.
 
 #### Slide 4
 
@@ -32,11 +36,13 @@ So what's this Binder project I'm so excited about?
 #### Slide 5
 
 mybinder.org is a free-to-use website that allows a code repository to be run in the cloud and easily shared via a single, clickable link.
-It achieves this by capturing a documented software environment from a public repository.
+Three ingredients are needed for Binder, which are: code or notebooks in one of many supported languages, these should be published in a public repository and accompanied by documented software dependencies.
+This allows mybinder.org to serve the notebooks to anyone over the cloud.
 
 #### Slide 6
 
-BinderHub is the computational infrastructure that underpins mybinder.org and collects together different tools, including JupyterHub and Kubernetes.
+BinderHub is the computational infrastructure that powers mybinder.org and collects together different tools, including JupyterHub and Kubernetes.
+This is an open source project that is free for anyone to deploy in their own institutions.
 
 #### Slide 7
 
@@ -45,7 +51,7 @@ The original Hub is hosted on Google Cloud in the US and a second Hub is hosted 
 
 #### Slide 8
 
-The Turing also has a plan to join the federation and host a Hub on Azure.
+As well as maintaining the Google cluster, I have also won a proposal to host a third Hub at the Turing on Azure.
 Stay tuned!
 
 #### Slide 9
@@ -65,7 +71,7 @@ The development team are very Python-centric which makes it tricky to help users
 
 The team is also quite small with few people knowing how to maintain the project, which can slow down development.
 
-So why should someone be interested in joining the Binder community?
+I want to bring more people into the Binder community because:
 
 They would have a voice in shaping the roadmap of the project and also help improve support for their language or domain.
 
@@ -78,7 +84,9 @@ This would be a single day workshop split into two sessions.
 In the morning session, I'd teach the attendees how to use Binder for a their own projects.
 Then in the afternoon, I'd invite them to make a small contribution back to Project Binder around an aspect they may have found tricky.
 
-I'm calling this event a "do-athon" as a I want to avoid the association that contributions are only code that, unfortunately, comes with the term "hackathon".
+I'd like to make use of my connections in _The Turing Way_ community to help fund and advertise this event.
+
+I'm calling this event a "do-athon" as a I want to encourage non-code contributions.
 
 #### Slide 12
 
@@ -89,7 +97,7 @@ These are:
 
 - European R Users Meeting to reach the R community;
 - EuroSciPy to reach scientific users; and
-- JuliaCon to reach the Julia community (provided its hosted in UK/EU).
+- JuliaCon to reach the Julia community.
 
 My aims for these conferences would be to:
 
