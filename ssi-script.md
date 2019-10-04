@@ -12,6 +12,7 @@ My name is Sarah Gibson and welcome to my 2020 SSI Fellowship application.
 Here's a little bit about me.
 
 I'm a Research Data Scientist at The Alan Turing Institute.
+The Turing is the UK's national institute for Data Science and AI and my role involves applying new data science techniques to real-world problems and turning these tools into software to allow practitioners to use these techniques themselves.
 
 I'm part of a team that shares thousands of Jupyter notebooks everyday using mybinder.org, maintained by Project Binder.
 
