@@ -44,10 +44,25 @@ So what's this Binder project I'm so excited about?
 #### Slide 7
 
 mybinder.org is a free-to-use website that allows a code repository to be run in the cloud and easily shared via a single, clickable link.
-Three ingredients are needed for Binder, which are: code or notebooks in one of many supported languages, that are published in a public repository, and are accompanied by documented software dependencies.
-This allows mybinder.org to serve the notebooks to anyone over the cloud.
+Three ingredients are needed for Binder, which are:
 
 #### Slide 8
+
+code or notebooks in one of many supported languages,
+
+#### Slide 9
+
+that are published in a public repository,
+
+#### Slide 10
+
+and are accompanied by documented software dependencies.
+
+#### Slide 11
+
+This allows mybinder.org to serve the notebooks to anyone over the cloud.
+
+#### Slide 12
 
 BinderHub is the computational infrastructure that powers mybinder.org and orchestrates a range of technologies, including JupyterHub and Kubernetes.
 This is an open source project that is free for anyone to deploy in their own institutions.
@@ -56,67 +71,67 @@ When I first began working with BinderHub, I found the number of interacting tec
 So during _The Turing Way_ Book Dashes, I sat down with a live illustrator to create this image of the BinderHub ecosystem to help clarify and visualise how these tools work together.
 Lowering the barrier to working with BinderHub via different pathways is a strong motivator for me to be involved in the community and why I'm applying for this Fellowship.
 
-#### Slide 9
+#### Slide 13
 
 mybinder.org is a federated project, meaning that it is not hosted by a single team.
 The original Hub is hosted on Google Cloud in the US and a second Hub is hosted on OVH in Europe.
 
-#### Slide 10
+#### Slide 14
 
 As well as maintaining the Google cluster, I have also won a proposal for $10k to host a third Hub at the Turing on Azure.
 Not only will this strengthen mybinder.org as a project, but it strengthens the Turing's reputation as an investor in open source projects and a leader in reproducible data science.
 
-#### Slide 11
+#### Slide 14
 
 How have I contributed to Binder so far?
 
 Through _The Turing Way_, I ran workshops that helped people make Binders out of their own projects.
 I have also helped more people than ever deploy their own BinderHubs.
 
-Through my work with BinderHubs on Azure, I was able to develop a one-click button that reduces the complexity of the deployment process.
+My work with BinderHubs on Azure meant I was able to develop a one-click button that reduces the complexity of the deployment process.
 
 And at this year's RSE Conference, I was invited to speak about collaborating with the Binder team on the RSE Worldwide panel, as well as running my "Zero to BinderHub" workshop.
 
-#### Slide 12
+#### Slide 16
 
 I absolutely love being a member of the Binder community, but nothing can be perfect and we face our own issues.
 
-#### Slide 13
+#### Slide 17
 
 Binder is part of the Jupyter ecosystem.
 Despite Jupyter standing for Julia, Python and R, the development team are very Python-centric.
 So two thirds of our named supported community are not well represented among the team.
 This makes it tricky to help users with those languages or develop Binder into that space.
 
-#### Slide 14
+#### Slide 18
 
 The team is also quite small with few people knowing how to maintain the project, which can slow down development.
 This is the impact that a small bus factor can have on a project.
 
 The benefits a person will receive by joining the Binder community are:
 
-#### Slide 15
+#### Slide 19
 
 Having a voice in shaping the roadmap of the project...
 
-#### Slide 16
+#### Slide 20
 
 and helping improve support for their own language or domain.
 
-#### Slide 17
+#### Slide 21
 
 I also hope to share the experience that I get from this community, which is working with wonderful, supportive people!
 
-#### Slide 18
+#### Slide 22
 
 Through the SSI Fellowship I'd like to host a Binder "Do-athon".
 This would be a single day workshop split into two sessions.
 
-#### Slide 19
+#### Slide 23
 
 The morning session would be a "Train the Trainers" style curriculum on how to use Binder for teaching purposes.
 
-#### Slide 20
+#### Slide 24
 
 Then in the afternoon, I'd invite attendees to make a small contribution back to Binder around barriers they experienced or foresee.
 
@@ -124,7 +139,7 @@ I'd like to make use of my connections in _The Turing Way_ community to help fun
 
 I'm calling this event a "do-athon" since it encourages contributions of all types, such as code, documentation, design, and training.
 
-#### Slide 21
+#### Slide 25
 
 I have also identified three conferences I would like to attend as a Binder advocate.
 The Fellowship should cover the cost of at least a couple of them.
@@ -141,7 +156,7 @@ My aims for these conferences would be to:
 - using sprint sessions to facilitate first contributions to Binder, in the spirit of _The Turing Way_ Book Dashes and Collaboration Cafes; and
 - Listen to these communities around their hopes and dreams for Binder and their appetite for contributing.
 
-#### Slide 22
+#### Slide 26
 
 Thank you for listening to my presentation, I'm really excited to be a part of the SSI community.
 If you'd like to see more from me, please check out my GitHub and Twitter profiles, and I hope I've inspired you to try out mybinder.org.
