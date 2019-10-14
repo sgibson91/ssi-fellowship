@@ -69,7 +69,7 @@ This is an open source project that is free for anyone to deploy in their own in
 
 When I first began working with BinderHub, I found the number of interacting technologies involved overwhelming.
 So during _The Turing Way_ Book Dashes, I sat down with a live illustrator to create this image of the BinderHub ecosystem to help clarify and visualise how these tools work together.
-Lowering the barrier to working with BinderHub via different pathways is a strong motivator for me to be involved in the community and why I'm applying for this Fellowship.
+I'd like to use the network the Fellowship will provide me with to find new and different pathways to lower the barrier to working with BinderHub.
 
 #### Slide 13
 
@@ -85,10 +85,9 @@ Not only will this strengthen mybinder.org as a project, but it strengthens the 
 
 How have I contributed to Binder so far?
 
-Through _The Turing Way_, I ran workshops that helped people make Binders out of their own projects.
-I have also helped more people than ever deploy their own BinderHubs.
+Through _The Turing Way_, I developed and ran successful workshops that helped people make Binders out of their own projects and deploy BinderHubs.
 
-My work with BinderHubs on Azure meant I was able to develop a one-click button that reduces the complexity of the deployment process.
+My work with BinderHub on Azure meant I was able to develop a one-click button that reduces the complexity of the deployment process.
 
 And at this year's RSE Conference, I was invited to speak about collaborating with the Binder team on the RSE Worldwide panel, as well as running my "Zero to BinderHub" workshop.
 
@@ -129,13 +128,13 @@ This would be a single day workshop split into two sessions.
 
 #### Slide 23
 
-The morning session would be a "Train the Trainers" style curriculum on how to use Binder for teaching purposes.
+The morning session would be a "Train the Trainers" style curriculum on integrating Binder with existing teaching materials.
 
 #### Slide 24
 
 Then in the afternoon, I'd invite attendees to make a small contribution back to Binder around barriers they experienced or foresee.
 
-I'd like to make use of my connections in _The Turing Way_ community to help fund and advertise this event.
+I'd like to make use of my connections in _The Turing Way_ community and the Turing Institute to help fund and advertise this event.
 
 I'm calling this event a "do-athon" since it encourages contributions of all types, such as code, documentation, design, and training.
 
@@ -152,11 +151,11 @@ These are:
 
 My aims for these conferences would be to:
 
-- run hands-on workshops using Binder with different languages;
+- run hands-on workshops using Binder with Python, R and Julia;
 - using sprint sessions to facilitate first contributions to Binder, in the spirit of _The Turing Way_ Book Dashes and Collaboration Cafes; and
-- Listen to these communities around their hopes and dreams for Binder and their appetite for contributing.
+- Listen and empower these communities to report or contribute their hopes and dreams for Binder.
 
 #### Slide 26
 
 Thank you for listening to my presentation, I'm really excited to be a part of the SSI community.
-If you'd like to see more from me, please check out my GitHub and Twitter profiles, and I hope I've inspired you to try out mybinder.org.
+If you'd like to see more from me, please check out my GitHub and Twitter profiles, and I hope I've inspired you to support mybinder.org.
