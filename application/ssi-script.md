@@ -1,7 +1,5 @@
 # Script for SSI Fellowship Application
 
-Slides can be found here :point_right: <https://www.dropbox.com/s/js4uoy8stymc6bo/SGibson_SSI_2020_Fellowship_Application.pdf?dl=0>
-
 #### Slide 1
 
 Hi!
