@@ -30,7 +30,7 @@ She will introduce herself as a point of contact for further discussion on how t
 
 _Optional. At most 2500 characters._
 
-_Current character count: 1,497_
+_Current character count: 1,501_
 
 The Binder Project is a collection of tools that rewards best practices in reproducible data science and provides an easy method of sharing computing environments with anyone via a single clickable link.
 The free and public Binder service, hosted at https://mybinder.org, serves around 100,000 launches per week from over 10,000 individual git repositories in a variety of programming languages, including Julia.
@@ -42,4 +42,4 @@ There are so many fantastic ideas and features the Binder project team (https://
 
 Sarah Gibson would like to introduce the Binder Project to the Julia community as an opportunity to shape a tool that would be most useful to them and provide guidance on how to get started with contributing to or joining the project.
 
-This lightning talk will (hopefully!) be accompanied by a Birds of a Feather session or a drop-in table where Sarah will be available for more in-depth discussions about Binder.
+This lightning talk will (hopefully!) be accompanied by a Birds of a Feather session and/or a drop-in table where Sarah will be available for more in-depth discussions about Binder.
