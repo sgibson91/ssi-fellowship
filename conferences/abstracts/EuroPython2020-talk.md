@@ -18,15 +18,15 @@ Sharing Reproducible Python Environments with Binder
 
 ## Abstract (long)
 
-_At most 1500 characters. Current count (with spaces): 1182_
+_At most 1500 characters. Current count (with spaces): 1241_
 
 As reproducibility gains traction in the data science community, the need to package code, data and the computational environment is growing.
 
 There are many tools that address different aspects of this type of packaging, such as Jupyter Notebooks for literate programming, Docker for containerising and porting computational environments, and so on.
 But they represent barriers to reproducibility as each one requires time and effort to learn.
 
-Project Binder provides the tooling for generating reproducible computational analyses with a web-based interface, such that users do not have to worry about all the moving parts so long as they have followed software best practices: their code is version controlled and they've captured the dependencies the analysis needs to run.
-Binder then allows the users to easily share their analyses by hosting the compute in the cloud and providing a unique URL to the code repository.
+Project Binder provides the tooling for generating reproducible computational analyses with a web-based interface, such that users do not have to worry about all the moving parts so long as they have followed basic software best practices: their code is version controlled and they've captured the dependencies the analysis needs to run.
+Binder then allows the users to easily share their analyses by hosting the compute in the cloud and providing a unique URL to the code repository, without imposing additional overhead on the analyst.
 
 During this talk, Sarah will introduce Binder (the service), BinderHub (the technological infrastructure) and mybinder.org (a public instance of a Binder service, free for anyone to use) and demonstrate how it can be used to share Python environments and analyses.
 
