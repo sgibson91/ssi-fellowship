@@ -63,3 +63,6 @@ Talk (30 mins)
 ## Additional information for talk reviewers
 
 (_Optional_)
+
+- Previous presentation slides on Zenodo: <https://zenodo.org/communities/the-turing-way/search?page=1&size=20&q=Sarah%20Gibson&type=presentation>
+- List of previous speaking engagements: <https://sgibson91.github.io/speaking/>
