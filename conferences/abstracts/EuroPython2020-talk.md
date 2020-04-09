@@ -18,7 +18,7 @@ Sharing Reproducible Python Environments with Binder
 
 ## Abstract (long)
 
-_At most 1500 characters. Current count: 1182 (with spaces)._
+_At most 1500 characters. Current count (with spaces): 1182_
 
 As reproducibility gains traction in the data science community, the need to package code, data and the computational environment is growing.
 
@@ -32,7 +32,12 @@ During this talk, Sarah will introduce Binder (the service), BinderHub (the tech
 
 ## Abstract (short)
 
-_At most 500 characters_
+_At most 500 characters. Current count (with spaces): 441_
+
+Packaging code, data and computational environments to provide reproducible analyses requires extra time and effort to learn the required tools.
+Project Binder provides open-source tooling for executing reproducible analyses in the cloud, and enabling them to be shared via a single, unique URL.
+
+In this talk, Sarah will introduce Binder, BinderHub and mybinder.org and demonstrate how it can be used to share Python environments and analyses.
 
 ## Prerequisites for attending the session
 
