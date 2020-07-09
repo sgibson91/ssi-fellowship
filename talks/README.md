@@ -11,7 +11,7 @@ This folder contains resources relating to conferences and events Sarah applied 
 | --- | --- | --- | --- | --- |
 | 2020 SSI Fellows Inaugural Meeting | 11th February 2020 | University of Manchester, UK | | [inaugural_meeting_intro_slides.pdf](presentations/inaugural_meeting_intro_slides.pdf) |
 | [European R Users Meeting 2020](https://2020.erum.io/) | 17th - 20th June 2020 | Online | [abstract](abstracts/eRum2020.md) | [10.5281/zenodo.3895699](https://doi.org/10.5281/zenodo.3895699) [PDF copy](presentations/SGibson_eRum2020_Binder.pdf) |
-| [EuroPython 2020](https://ep2020.europython.eu) | 23rd - 26th July 2020 | Online | [abstract](abstracts/EuroPython2020-talk.md) | |
+| [EuroPython 2020](https://ep2020.europython.eu) | 23rd - 26th July 2020 | Online | [abstract](abstracts/EuroPython2020-talk.md) | [10.5281/zenodo.3937310](https://doi.org/10.5281/zenodo.3937310) [PDF copy](presentations/SGibson_EuroPython2020_Binder.pdf) |
 | [JuliaCon 2020](https://juliacon.org/2020/) | 27th - 31st July 2020 | Online | [lightning talk abstract](abstracts/JuliaCon2020-lightning-talk.md), [BoF abstract](abstracts/JuliaCon2020-BoF.md) | |
 
 ## Events
