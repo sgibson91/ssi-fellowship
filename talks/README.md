@@ -9,6 +9,7 @@ This folder contains resources relating to conferences and events Sarah applied 
 
 | Conference | Date | Location | Abstract | Slides or DOI |
 | --- | --- | --- | --- | --- |
+| [Collaborations Workshop 2022](https://software.ac.uk/cw22) | 4th - 7th April 2022 | Online | [abstract](abstracts/CollabW2022.md) | |
 | 2020 SSI Fellows Inaugural Meeting | 11th February 2020 | University of Manchester, UK | | [inaugural_meeting_intro_slides.pdf](presentations/inaugural_meeting_intro_slides.pdf) |
 | [European R Users Meeting 2020](https://2020.erum.io/) | 17th - 20th June 2020 | Online | [abstract](abstracts/eRum2020.md) | [10.5281/zenodo.3895699](https://doi.org/10.5281/zenodo.3895699) [PDF copy](presentations/SGibson_eRum2020_Binder.pdf) |
 | [EuroPython 2020](https://ep2020.europython.eu) | 23rd - 26th July 2020 | Online | [abstract](abstracts/EuroPython2020-talk.md) | [10.5281/zenodo.3937310](https://doi.org/10.5281/zenodo.3937310) [PDF copy](presentations/SGibson_EuroPython2020_Binder.pdf) |
