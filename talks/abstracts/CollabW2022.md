@@ -2,7 +2,7 @@
 
 - **Where:** Online! :woman_technologist:
 - **When:** 4th - 7th April 2022
-- **Conference website:**
+- **Conference website:** <https://software.ac.uk/cw22>
 
 ---
 
