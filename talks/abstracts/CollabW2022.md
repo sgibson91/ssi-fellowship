@@ -18,13 +18,13 @@ The International Interactive Computing Collaboration (2i2c)
 
 _Please include First Name, Surname, Home institution and email address for any additional collaborators on this session proposal, each on a separate line._
 
--
--
--
+- Meag Doherty, NIH
+- Min Ragan-Kelley, Simula
+- Achintya Rao, The Alan Turing Institute
 
 ## Mini-workshop or demo session title
 
-_TBD_
+Crowdsourcing Community Practices for Defining Reproducible Computational Environments in the Cloud
 
 ## Mini-workshop or demo session abstract
 
@@ -40,14 +40,16 @@ _Which of the CW22 themes does your mini-workshop or demo session fit into? (Sel
 - [ ] Ethics
 - [ ] Hybrid Working
 - [ ] Software Sustainability
-- [ ] Other: _(please describe)_
+- [x] Other: _(please describe)_
+
+Community best practices
 
 ## Mini-workshop or demo session length
 
 _Please choose your preferred session length. We expect 30-minute sessions to be more suitable for demonstrations or presentations, and 60-minute sessions to facilitate participant interaction._
 
 - [ ] 30 minutes
-- [ ] 60 minutes
+- [x] 60 minutes
 
 ## Mini-workshop or demo session description
 
@@ -57,4 +59,4 @@ _Please describe your session's aims and outcomes, and how the session connects 
 
 ## Any special requirements, prerequisites for participants or other information you would like to include about your proposed session?
 
-...
+We will most likely use break-out rooms to be able to facilitate discussion between group with different experience/knowledge of mybinder.org, and so having host capabilities to organise those break-out rooms would be beneficial to the facilitators.
