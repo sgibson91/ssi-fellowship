@@ -20,7 +20,7 @@ _Please include First Name, Surname, Home institution and email address for any 
 
 - Meag Doherty, NIH
 - Min Ragan-Kelley, Simula
-- Achintya Rao, The Alan Turing Institute
+- Achintya Rao, The Alan Turing Institute, arao@turing.ac.uk
 
 ## Mini-workshop or demo session title
 
