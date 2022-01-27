@@ -38,7 +38,7 @@ While Binder supports a range of languages across the open source software ecosy
 And so keeping up to date with other communities and ensuring the project doesn't fall too far behind in terms of best practice is a large effort that often happens outside of the maintainer's network.
 
 For this mini-workshop, we would like to invite a diverse range of people working across various languages to participate in an interactive survey pilot and facilitated discussion around the best practices they currently use for defining reproducible computational environments.
-The aim of the session will be to better understand the pain points of using a service like Binder, and how Binder's assumptions may or may not be mismatched with various community best practices.
+The aim of the session will be to better understand the pain points of using a service like Binder, and how Binder's assumptions may or may not be aligned with various community best practices.
 We hope to build strong connections with active users across communities to provide specific and useful feedback to the Binder team.
 
 Everyone is welcome to attend this mini-workshop even if you don't use Binder or have never heard of it before now!
