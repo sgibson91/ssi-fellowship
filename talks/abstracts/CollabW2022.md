@@ -18,7 +18,7 @@ The International Interactive Computing Collaboration (2i2c)
 
 _Please include First Name, Surname, Home institution and email address for any additional collaborators on this session proposal, each on a separate line._
 
-- Meag Doherty, NIH
+- Meag Doherty, NIH, meag.doherty@nih.gov
 - Min Ragan-Kelley, Simula
 - Achintya Rao, The Alan Turing Institute, arao@turing.ac.uk
 
