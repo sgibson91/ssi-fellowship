@@ -71,12 +71,12 @@ _Please choose your preferred session length. We expect 30-minute sessions to be
 
 _Please describe your session's aims and outcomes, and how the session connects to the themes of CW22. If you are proposing a 60-minute session, please outline how you plan to facilitate participant interaction._
 
-- Use the responses to this interactive survey and facilitated discussions to better understand areas of improvement in the Binder ecosystem; for example, user pain points, where community best practices do not align with Binder's expectations, and so on.
-- Generate specific and useful feedback to the Binder core team to support the user community
-- Build a stronger connections with active folk in these communities, invite them to further discussions with members of the Binder core team
-- This session will be an interactive survey including live visualisations of responses powered by Mentimeter
+- The responses to this interactive survey and facilitated discussions will provide better understanding of areas of improvement in the Binder ecosystem; for example, user pain points, where community best practices do not align with Binder's expectations, and so on.
+- We aim to generate specific and useful feedback to the Binder core team to support the user community
+- We aim to build stronger connections with active folk in these communities, and invite them to further discussions with members of the Binder core team
+- This session will be an interactive survey including live visualisations of responses powered by Mentimeter.
   We will also host facilitated discussions for each set of responses, capturing insight in a shared document.
-- We aim to use this mini-workshop as a pilot to reflect upon and receive feedback on how the survey itself could be improved and reformatted for distribution to a wider audience.
+- We also aim to use this mini-workshop as a pilot to reflect upon and receive feedback on how the survey itself could be improved and reformatted for distribution to a wider audience.
 
 ## Any special requirements, prerequisites for participants or other information you would like to include about your proposed session?
 
