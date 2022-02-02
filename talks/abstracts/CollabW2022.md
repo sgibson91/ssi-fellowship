@@ -24,7 +24,7 @@ _Please include First Name, Surname, Home institution and email address for any 
 
 ## Mini-workshop or demo session title
 
-Crowdsourcing Community Practices for Defining Reproducible Computational Environments in the Cloud
+Crowdsourcing Community Practices for Reproducible Computational Environments in the Cloud
 
 ## Mini-workshop or demo session abstract
 
