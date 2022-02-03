@@ -30,23 +30,23 @@ Crowdsourcing Community Practices for Reproducible Computational Environments in
 
 _If your session is accepted this abstract will be made public on the CW22 website, so please write this as a public description containing 200-400 words._
 
-_Current word count: 423_
+_Current word count: 397_
 
-As the scale of data-intensive research grows ever larger, various scientific domains are experiencing a shift towards cloud-based workflows.
-This brings with it a need to reliably and reproducibly define a computational environment that can be transported between local and cloud systems.
-Many tools providing this service already exist and they broadly fall into two camps: provide a “kitchen-sink” environment with many of the data-science tools a researcher would expect to have preinstalled; or enable bespoke, analysis-specific environments to be built on the fly.
-For those tools in the second camp, understanding how various domains working across a range of programming languages expect to define their environments is critical to the success of the tool.
-If these expectations do not align with the best practices of a community, that community often stops using this tool and may go as far as to begin to develop their own, bespoke solution.
+As the scale of data-intensive research grows, various scientific domains are experiencing a shift towards cloud-based workflows.
+This comes with a need to reliably and reproducibly define a computational environment that can be transported between local and cloud systems.
+Many tools providing this service already exist, broadly falling into two camps: provide a “kitchen-sink” environment with many of the data-science tools a researcher expects to have available; or enable bespoke, analysis-specific environments to be built on the fly.
+For tools in the second camp, understanding how various domains working across a range of programming languages expect to define their environments is critical to their success.
+If these expectations do not align with the best practices of a community, that community may avoid using the tool, or even develop their own, bespoke solution.
 This breaks the ethos that open science is built upon: that sharing knowledge, interoperable tools, and decentralised infrastructure can accelerate the progress of research since work is no longer repeated in siloes.
 
 However, the broader the range of communities you aim to support, the broader the range of usage patterns and best practices becomes.
-Simply keeping up to date and not lagging too far behind is in itself a huge undertaking.
-And while a tool may be interoperable and support other languages, the tool itself is still a codebase in a given language and hence a scenario develops where the maintainers of the tool are not experts in all the communities they support.
-To begin to address these concerns, we need to open a dialogue with communities and collect feedback to guide development and identify awareness gaps in how the tool is being used and is expected to work.
+Simply keeping up to date with multiple community practices is in itself a huge undertaking.
+And while a tool may be interoperable and support multiple languages, the tool itself is still a codebase in a given language and hence a scenario develops where the maintainers of the tool are not experts in all the communities they support.
+To address these challenges, we need continuous dialogue with communities and feedback to guide development and identify awareness gaps in how the tool is being used and is expected to work.
 
 For this mini-workshop, we would like to invite a diverse range of people working across various languages to participate in an interactive survey pilot and facilitated discussion around the best practices they currently use for defining reproducible computational environments.
 The aim of the session will be to better understand the pain points of using a cloud-based environment service, and how the assumptions such a service makes may or may not align with various community best practices.
-As a popular tool in this area, we will be using mybinder.org as an example of such a service, though prior knowledge is not a requirement, and we hope to build strong connections with active users across communities to provide specific and useful feedback to the Binder team.
+As a popular tool in this area, we will use mybinder.org as an example of such a service, though prior knowledge is not a requirement, and we hope to build strong connections with active users across communities to provide specific and useful feedback to the Binder team.
 
 ## Mini-workshop of demo session theme(s)
 
