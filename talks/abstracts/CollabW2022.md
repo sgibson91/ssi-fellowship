@@ -71,12 +71,14 @@ _Please choose your preferred session length. We expect 30-minute sessions to be
 
 _Please describe your session's aims and outcomes, and how the session connects to the themes of CW22. If you are proposing a 60-minute session, please outline how you plan to facilitate participant interaction._
 
+- An outcome of this workshop will be a collection of cross-community best practices, whether they use a tool like Binder or not.
+  This information is useful to _anyone_ building such a tool, and more broadly to individuals who want to learn about best practices from their own or other communities, which are typically spread out across the internet.
 - The responses to this interactive survey and facilitated discussions will provide better understanding of areas of improvement in the Binder ecosystem; for example, user pain points, where community best practices do not align with Binder's expectations, and so on.
 - We aim to generate specific and useful feedback to the Binder core team to support the user community
 - We aim to build stronger connections with active folk in these communities, and invite them to further discussions with members of the Binder core team
 - This session will be an interactive survey including live visualisations of responses powered by Mentimeter.
   We will also host facilitated discussions for each set of responses, capturing insight in a shared document.
-- We also aim to use this mini-workshop as a pilot to reflect upon and receive feedback on how the survey itself could be improved and reformatted for distribution to a wider audience.
+- We aim to use this mini-workshop as a pilot to reflect upon and receive feedback on how the survey itself could be improved and reformatted for distribution to a wider audience.
 
 ## Any special requirements, prerequisites for participants or other information you would like to include about your proposed session?
 
