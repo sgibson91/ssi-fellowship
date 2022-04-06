@@ -4,6 +4,7 @@ This repository tracks the management and impact of Sarah's 2020 SSI Fellowship.
 
 - `/application` contains the resources that went into the application
 - `/talks` contains resources relating to conferences or events Sarah has applied to and/or presented at during her Fellowship
+- `/cw22-survey` contains anonymised responses and preprocessing/analysis code for a [survey piloted at Collaborations Workshop 22](https://github.com/sgibson91/ssi-fellowship/issues/33)
 
 ---
 
