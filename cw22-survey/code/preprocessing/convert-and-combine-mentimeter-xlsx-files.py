@@ -1,60 +1,93 @@
+import argparse
 from pathlib import Path
 
 import numpy as np
 import pandas as pd
 
-# Set directory paths
-ABSOLUTE_HERE = Path(__file__).parent
-raw_data_dir = ABSOLUTE_HERE.parent.parent.joinpath("data/raw")
-processed_data_dir = ABSOLUTE_HERE.parent.parent.joinpath("data/processed")
 
-# Columns we don't need for analysis
-cols_to_drop = ["Session", "How to join this survey:", "Thank You!:"]
+def process_and_combine_responses(survey_date=None):
+    """Combine xlsx files from the ./cw22-survey/data/raw folder containing Mentimeter
+    survey responses into a single CSV file for analysis.
 
-# Columns that contain free text responses
-open_questions = [
-    "If you publish code",
-    "If you don't publish code",
-    "Which environment management tools",
-    "Which tools",
-]
+    Args:
+        survey_date (str, optional): The date the desired responses were collected, if
+            the survey was run more than once. Defaults to None.
+    """
+    # Set directory paths
+    ABSOLUTE_HERE = Path(__file__).parent
+    raw_data_dir = ABSOLUTE_HERE.parent.parent.joinpath("data/raw")
+    processed_data_dir = ABSOLUTE_HERE.parent.parent.joinpath("data/processed")
 
-# Date the survey was conducted
-date_to_filter_on = "2022-04-06"
+    # Columns not required for analysis
+    columns_to_drop = ["Session", "How to join this survey:", "Thank You!:"]
 
-# Empty dataframe to combine responses into
-df = pd.DataFrame({})
+    # Columns that contain free text responses
+    open_questions = [
+        "If you publish code",
+        "If you don't publish code",
+        "Which environment management tools",
+        "Which tools",
+    ]
 
-# Find raw xlsx files
-for i, filename in enumerate(raw_data_dir.glob("*.xlsx")):
-    # Read in file
-    xlsx_df = pd.read_excel(filename, sheet_name="Voters", skiprows=2)
+    # Empty dataframe to combine responses into
+    df = pd.DataFrame({})
 
-    # Drop unnecessary columns
-    xlsx_df.drop(columns=cols_to_drop, inplace=True)
+    # Find raw xlsx files
+    for filename in raw_data_dir.glob("*.xlsx"):
+        # Read in file
+        xlsx_df = pd.read_excel(filename, sheet_name="Voters", skiprows=2)
 
-    # Select date of the survey to filter by, then drop the Date column
-    xlsx_df = xlsx_df[xlsx_df["Date"] == date_to_filter_on]
-    xlsx_df.drop(columns="Date", inplace=True)
+        # Drop unnecessary columns
+        xlsx_df.drop(columns=columns_to_drop, inplace=True)
 
-    # Use Voter column as index
-    xlsx_df = xlsx_df.set_index("Voter", drop=True).reset_index(drop=True)
+        if survey_date is not None:
+            xlsx_df = xlsx_df[xlsx_df["Date"] == survey_date]
+        xlsx_df.drop(columns="Date", inplace=True)
 
-    # Set NAN values to empty string to avoid Attribute Errors
-    xlsx_df = xlsx_df.fillna("")
+        # Use Voter column as index
+        xlsx_df = xlsx_df.set_index("Voter", drop=True).reset_index(drop=True)
 
-    # For the open questions, replace carriage return symbol with whitespace to prevent
-    # messing up the CSV parsing
-    for column in xlsx_df.columns:
-        if any([column.startswith(open_q) for open_q in open_questions]):
-            for i, _ in xlsx_df[column].iteritems():
-                xlsx_df.at[i, column] = xlsx_df.at[i, column].replace("\n", " ")
+        # Set NAN values to empty string to avoid Attribute Errors
+        xlsx_df = xlsx_df.fillna("")
 
-    # Concatenate dataframes
-    df = pd.concat([df, xlsx_df], ignore_index=True)
+        # For the open questions, replace carriage return symbol with whitespace to
+        # prevent messing up the CSV parsing
+        for column in xlsx_df.columns:
+            if any([column.startswith(open_q) for open_q in open_questions]):
+                for i, _ in xlsx_df[column].iteritems():
+                    xlsx_df.at[i, column] = xlsx_df.at[i, column].replace("\n", " ")
 
-# Swap empty strings back to NANs and drop rows where all values are NAN
-df = df.replace("", np.nan).dropna(how="all")
+        # Concatenate dataframes
+        df = pd.concat([df, xlsx_df], ignore_index=True)
 
-# Output responses as a CSV file
-df.to_csv(processed_data_dir.joinpath("cw22-survey-responses.csv"), index_label="Voter")
+    # Swap empty strings back to NANs and drop rows where all values are NAN
+    df = df.replace("", np.nan).dropna(how="all")
+
+    # Output responses as a CSV file
+    df.to_csv(
+        processed_data_dir.joinpath("cw22-survey-responses.csv"), index_label="Voter"
+    )
+
+
+def main():
+    parser = argparse.ArgumentParser(
+        description="Combine a number of Mentimeter output files (xlsx) into a single CSV"
+    )
+
+    parser.add_argument(
+        "-d",
+        "--survey-date",
+        type=str,
+        default=None,
+        help="The date responses were collected on in the format YYYY-MM-DD",
+    )
+
+    args = parser.parse_args()
+
+    process_and_combine_responses(
+        survey_date=args.survey_date,
+    )
+
+
+if __name__ == "__main__":
+    main()
