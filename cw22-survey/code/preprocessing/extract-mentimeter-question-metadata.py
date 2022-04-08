@@ -99,7 +99,7 @@ def main():
         "--output",
         type=str,
         default="questions_metadata.json",
-        help="The JSON file to store extrqacted metadata in. Default: questions_metadata.json",
+        help="The JSON file to store extracted metadata in. Default: questions_metadata.json",
     )
 
     args = parser.parse_args()
