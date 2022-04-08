@@ -65,9 +65,7 @@ def process_and_combine_responses(output_file, survey_date=None):
     df = df.replace("", np.nan).dropna(how="all")
 
     # Output responses as a CSV file
-    df.to_csv(
-        processed_data_dir.joinpath(output_file), index_label="Voter"
-    )
+    df.to_csv(processed_data_dir.joinpath(output_file), index_label="Voter")
 
 
 def main():
@@ -90,7 +88,7 @@ def main():
         help="""
             The name of the file to save processed survey responses in.
             Default: survey-responses.csv
-        """
+        """,
     )
 
     args = parser.parse_args()
