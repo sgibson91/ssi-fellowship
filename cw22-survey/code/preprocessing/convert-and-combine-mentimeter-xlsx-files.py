@@ -5,11 +5,12 @@ import numpy as np
 import pandas as pd
 
 
-def process_and_combine_responses(survey_date=None):
+def process_and_combine_responses(output_file, survey_date=None):
     """Combine xlsx files from the ./cw22-survey/data/raw folder containing Mentimeter
     survey responses into a single CSV file for analysis.
 
     Args:
+        output_file (str): The name of the file to save processed survey responses in.
         survey_date (str, optional): The date the desired responses were collected, if
             the survey was run more than once. Defaults to None.
     """
@@ -65,7 +66,7 @@ def process_and_combine_responses(survey_date=None):
 
     # Output responses as a CSV file
     df.to_csv(
-        processed_data_dir.joinpath("cw22-survey-responses.csv"), index_label="Voter"
+        processed_data_dir.joinpath(output_file), index_label="Voter"
     )
 
 
@@ -81,11 +82,22 @@ def main():
         default=None,
         help="The date responses were collected on in the format YYYY-MM-DD",
     )
+    parser.add_argument(
+        "-o",
+        "--output",
+        type=str,
+        default="survey-responses.csv",
+        help="""
+            The name of the file to save processed survey responses in.
+            Default: survey-responses.csv
+        """
+    )
 
     args = parser.parse_args()
 
     process_and_combine_responses(
         survey_date=args.survey_date,
+        output_file=args.output,
     )
 
 
