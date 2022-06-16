@@ -1,0 +1,124 @@
+[
+    {
+        "number": 1,
+        "type": "choices",
+        "question": "How much experience do you have of any part of Project Binder (including mybinder.org and repo2docker)?",
+        "choices": [
+            "I know about Project Binder and I use it regularly",
+            "I know about Project Binder and I don't use it regularly",
+            "I don't know about Project Binder"
+        ]
+    },
+    {
+        "number": 2,
+        "type": "scales",
+        "question": "Please rank how strongly you agree or disagree with these applications of reproducibility",
+        "choices": [
+            "Make something useful for others",
+            "Verify past work",
+            "Move my work across systems",
+            "Other - please share in the document"
+        ]
+    },
+    {
+        "number": 3,
+        "type": "choices",
+        "question": "Why do you prioritise reproducibility?",
+        "choices": [
+            "Easily share work with someone else today",
+            "Archive work on a longer timescale (e.g., 3, 5, 10 years)",
+            "Reproducibility is not at the top of my priorities",
+            "Other - please share in the document"
+        ]
+    },
+    {
+        "number": 4,
+        "type": "ranking",
+        "question": "Please rank the following audiences for reproducing your work in terms of which are most important to you.",
+        "choices": [
+            "Peer review",
+            "Other researchers in my field",
+            "Students in my field",
+            "PIs and stakeholders",
+            "Future me",
+            "Other - please share in the document"
+        ]
+    },
+    {
+        "number": 5,
+        "type": "choices",
+        "question": "Do you publish your code?",
+        "choices": [
+            "Yes",
+            "Sometimes",
+            "No"
+        ]
+    },
+    {
+        "number": 6,
+        "type": "open",
+        "question": "If you publish code: How do you publish it? When on your research timeline do you publish it?",
+        "choices": []
+    },
+    {
+        "number": 7,
+        "type": "open",
+        "question": "If you don't publish code: Why not? Are there barriers? If so, what are they?",
+        "choices": []
+    },
+    {
+        "number": 8,
+        "type": "choices",
+        "question": "Do you expect to maintain a published artefact?",
+        "choices": [
+            "Yes",
+            "Sometimes",
+            "No"
+        ]
+    },
+    {
+        "number": 9,
+        "type": "choices",
+        "question": "Do you have the autonomy to choose the software you use to manage your environment?",
+        "choices": [
+            "Yes",
+            "Sometimes",
+            "No"
+        ]
+    },
+    {
+        "number": 10,
+        "type": "choices",
+        "question": "What is your reason for not using Binder?",
+        "choices": [
+            "I have a solution for managing my environment and I don't need another one",
+            "I tried to use Binder but it didn't solve the problem I had",
+            "I'm not sure what use case I have for using Binder",
+            "Other - please share in the document"
+        ]
+    },
+    {
+        "number": 11,
+        "type": "open",
+        "question": "Which environment management tools do you use instead, if at all?",
+        "choices": []
+    },
+    {
+        "number": 12,
+        "type": "choices",
+        "question": "If/When you use Binder with a project, how often do you find yourself providing custom configuration to achieve your goals?",
+        "choices": [
+            "Never",
+            "Rarely",
+            "Sometimes",
+            "Very often",
+            "All the time"
+        ]
+    },
+    {
+        "number": 13,
+        "type": "open",
+        "question": "Which tools are missing from your workflow today that would improve your ability to work reproducibly?",
+        "choices": []
+    }
+]
