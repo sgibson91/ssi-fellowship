@@ -14,4 +14,4 @@ on:
 
 jobs:
   clean-notebooks:
-    uses: sgibson91/.github/.github/workflows/clean-notebook-outpus.yaml@main
+    uses: sgibson91/.github/.github/workflows/clean-notebook-outputs.yaml@main
