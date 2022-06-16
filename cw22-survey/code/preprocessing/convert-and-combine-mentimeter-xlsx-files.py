@@ -58,6 +58,9 @@ def process_and_combine_responses(output_file, survey_date=None):
                 for i, _ in xlsx_df[column].iteritems():
                     xlsx_df.at[i, column] = xlsx_df.at[i, column].replace("\n", " ")
 
+        column_mapping = {column: column.replace(":", "") for column in xlsx_df.columns if column.endswith(":")}
+        xlsx_df.rename(columns=column_mapping, inplace=True)
+
         # Concatenate dataframes
         df = pd.concat([df, xlsx_df], ignore_index=True)
 
