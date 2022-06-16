@@ -1,0 +1,17 @@
+name: Ensure clean notebooks
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - "**.ipynb"
+  pull_request:
+    branches:
+      - main
+    paths:
+      - "**.ipynb"
+
+jobs:
+  clean-notebooks:
+    uses: sgibson91/.github/.github/workflows/clean-notebook-outpus.yaml@main
