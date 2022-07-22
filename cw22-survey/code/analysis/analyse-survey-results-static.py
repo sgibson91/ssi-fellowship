@@ -48,7 +48,7 @@ def plot_q1(data, metadata, save_path):
 
     plt.tight_layout()
     plt.savefig(
-        save_path.joinpath(f"cw22survey_question{metadata['number']}.png"),
+        save_path.joinpath(f"cw22survey_question{metadata['number']:02}.png"),
         format="png",
         dpi=720,
     )
@@ -92,7 +92,7 @@ def plot_choices(data, metadata, grouping_vars, grouping_col, save_path):
 
     plt.tight_layout()
     plt.savefig(
-        save_path.joinpath(f"cw22survey_question{metadata['number']}.png"),
+        save_path.joinpath(f"cw22survey_question{metadata['number']:02}.png"),
         format="png",
         dpi=720,
     )
@@ -157,7 +157,7 @@ def plot_scales(data, metadata, grouping_vars, grouping_col, save_path):
 
     plt.tight_layout(w_pad=1.5)
     plt.savefig(
-        save_path.joinpath(f"cw22survey_question{metadata['number']}.png"),
+        save_path.joinpath(f"cw22survey_question{metadata['number']:02}.png"),
         format="png",
         dpi=720,
     )
@@ -224,7 +224,7 @@ def plot_ranking(data, metadata, grouping_vars, grouping_col, save_path):
 
     plt.tight_layout()
     plt.savefig(
-        save_path.joinpath(f"cw22survey_question{metadata['number']}.png"),
+        save_path.joinpath(f"cw22survey_question{metadata['number']:02}.png"),
         format="png",
         dpi=720,
     )
@@ -268,7 +268,7 @@ def plot_open(data, metadata, grouping_vars, grouping_col, save_path):
 
     plt.tight_layout()
     plt.savefig(
-        save_path.joinpath(f"cw22survey_question{metadata['number']}.png"),
+        save_path.joinpath(f"cw22survey_question{metadata['number']:02}.png"),
         format="png",
         dpi=720,
     )
