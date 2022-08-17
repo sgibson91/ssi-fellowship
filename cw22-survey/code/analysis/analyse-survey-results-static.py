@@ -83,7 +83,7 @@ def plot_choices(data, metadata, grouping_vars, grouping_col, save_path):
         axes[i].set_xticklabels([fill(x, 12) for x in choices], fontsize=8)
         axes[i].set_ylim(0, max_y)
         axes[i].set_yticks([])
-        axes[i].set_title(fill(group, 20), fontsize=10, y=1.08)
+        axes[i].set_title(fill(group, 20), fontsize=10, y=1.16)
         axes[i].spines["top"].set_visible(False)
         axes[i].spines["right"].set_visible(False)
 
