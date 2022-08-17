@@ -277,7 +277,7 @@ def plot_open(data, metadata, grouping_vars, grouping_col, save_path):
 # Set filepaths
 ABSOLUTE_HERE = Path(__file__).parent
 processed_data_dir = ABSOLUTE_HERE.parent.parent.joinpath("data/processed")
-output_dir = ABSOLUTE_HERE.parent.joinpath("outputs")
+output_dir = ABSOLUTE_HERE.parent.parent.joinpath("data/outputs")
 data_filepath = processed_data_dir.joinpath("survey-responses.csv")
 questions_filepath = processed_data_dir.joinpath("questions_metadata.json")
 
